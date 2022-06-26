@@ -1,6 +1,7 @@
 Sentiment Analysis
 
-LSTM model trained with Chinese google play comment, deploy with fastapi.
+crawler.py爬下google play comment後，去除英文、數字、特殊符號，並用jieba斷詞。
+使用LSTM訓練模型，fastapi部屬網站.
 
 
 Install all the dependencies
