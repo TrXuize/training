@@ -1,7 +1,7 @@
 Sentiment Analysis
 
 crawler.py爬下google play comment後，去除英文、數字、特殊符號，
-並用jieba斷詞。使用LSTM訓練模型，fastapi部屬網站。
+並用jieba斷詞，類別分為1,2星、3星、4,5星三類。使用LSTM訓練模型，fastapi部屬網站。
 
 
 Install all the dependencies
